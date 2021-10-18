@@ -213,3 +213,54 @@ function buildEarlyModernTable() {
     //Append to div
     myTableDiv.appendChild(earlyModernTable);
 };
+
+//INDUSTRIAL TABLE
+buildIndustrialTable();
+
+function buildIndustrialTable() {
+    //Only returns objects for the Industrial era
+    const industrial = cultures.filter(obj => {
+        return obj.Era === "Industrial";
+    });
+    
+    //Create table + headers
+    const industrialTable = document.createElement("table"); 
+    industrialTable.id = "industrial-table";
+    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    let headerRow = document.createElement("tr");
+
+    //Create and append H2 for table
+    const industrialH2 = document.createElement("h2");
+    const industrialH2Text = document.createTextNode("Industrial Era");
+    industrialH2.appendChild(industrialH2Text);
+    industrialTable.appendChild(industrialH2);
+
+    //Headers for table
+    headers.forEach(headerText => {
+        let header = document.createElement("th");
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+
+    industrialTable.appendChild(headerRow);
+
+    //Table data
+    for (let i = 0; i < industrial.length; i++) {
+        let row = "<tr>" + 
+                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + industrial[i].Culture + "</a>" + "</td>" +
+                        "<td>" + industrial[i].Affinity + "</td>" +
+                        "<td>" + industrial[i]["Legacy trait"] + "</td>" +
+                        "<td>" + industrial[i]["Emblematic unit"] + "</td>" +
+                        "<td>" + industrial[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + industrial[i]["Affinity action"] + "</td>" +
+                        "<td>" + industrial[i]["Affinity bonus"] + "</td>" +
+                    "</tr>"
+
+        //Append row to table
+        industrialTable.innerHTML += row;
+    };
+
+    //Append to div
+    myTableDiv.appendChild(industrialTable);
+};
