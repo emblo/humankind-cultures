@@ -52,4 +52,45 @@ function buildAncientTable(data) {
     myTableDiv.appendChild(ancientTable);
 };
 
+buildClassicalTable(cultures);
+
+//Classical table
+function buildClassicalTable(cultures) {
+    //Only returns objects for the Classical era
+    const classical = cultures.filter(obj => {
+        return obj.Era === "Classical";
+    });
+    
+    //Create table + headers
+    const classicalTable = document.createElement("table"); 
+    classicalTable.id = "classical-table";
+    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    let headerRow = document.createElement("tr");
+
+    //Headers for table
+    headers.forEach(headerText => {
+        let header = document.createElement("th");
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+
+    classicalTable.appendChild(headerRow);
+
+    //Table data
+    for (let i = 0; i < classical.length; i++) {
+        let row = "<tr>" + 
+                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + classical[i].Culture + "</a>" + "</td>" +
+                        "<td>" + classical[i].Affinity + "</td>" +
+                        "<td>" + classical[i]["Legacy trait"] + "</td>" +
+                        "<td>" + classical[i]["Emblematic unit"] + "</td>" +
+                        "<td>" + classical[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + classical[i]["Affinity action"] + "</td>" +
+                        "<td>" + classical[i]["Affinity bonus"] + "</td>" +
+                    "</tr>"
+        classicalTable.innerHTML += row;
+    };
+
+    myTableDiv.appendChild(classicalTable);
+};
 
