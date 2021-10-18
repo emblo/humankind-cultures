@@ -99,3 +99,48 @@ function buildClassicalTable() {
     //Append to div
     myTableDiv.appendChild(classicalTable);
 };
+
+//MEDIEVAL TABLE
+buildMedievalTable();
+
+function buildMedievalTable() {
+    //Only returns objects for the Medieval era
+    const medieval = cultures.filter(obj => {
+        return obj.Era === "Medieval";
+    });
+    
+    //Create table + headers
+    const medievalTable = document.createElement("table"); 
+    medievalTable.id = "medieval-table";
+    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    let headerRow = document.createElement("tr");
+
+    //Headers for table
+    headers.forEach(headerText => {
+        let header = document.createElement("th");
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+
+    medievalTable.appendChild(headerRow);
+
+    //Table data
+    for (let i = 0; i < medieval.length; i++) {
+        let row = "<tr>" + 
+                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + medieval[i].Culture + "</a>" + "</td>" +
+                        "<td>" + medieval[i].Affinity + "</td>" +
+                        "<td>" + medieval[i]["Legacy trait"] + "</td>" +
+                        "<td>" + medieval[i]["Emblematic unit"] + "</td>" +
+                        "<td>" + medieval[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + medieval[i]["Affinity action"] + "</td>" +
+                        "<td>" + medieval[i]["Affinity bonus"] + "</td>" +
+                    "</tr>"
+
+        //Append row to table
+        medievalTable.innerHTML += row;
+    };
+
+    //Append to div
+    myTableDiv.appendChild(medievalTable);
+};
