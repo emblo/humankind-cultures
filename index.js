@@ -264,3 +264,54 @@ function buildIndustrialTable() {
     //Append to div
     myTableDiv.appendChild(industrialTable);
 };
+
+//CONTEMPORARY TABLE
+buildContemporaryTable();
+
+function buildContemporaryTable() {
+    //Only returns objects for the Industrial era
+    const contemporary = cultures.filter(obj => {
+        return obj.Era === "Contemporary";
+    });
+    
+    //Create table + headers
+    const contemporaryTable = document.createElement("table"); 
+    contemporaryTable.id = "contemporary-table";
+    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    let headerRow = document.createElement("tr");
+
+    //Create and append H2 for table
+    const contemporaryH2 = document.createElement("h2");
+    const contemporaryH2Text = document.createTextNode("Contemporary Era");
+    contemporaryH2.appendChild(contemporaryH2Text);
+    contemporaryTable.appendChild(contemporaryH2);
+
+    //Headers for table
+    headers.forEach(headerText => {
+        let header = document.createElement("th");
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+
+    contemporaryTable.appendChild(headerRow);
+
+    //Table data
+    for (let i = 0; i < contemporary.length; i++) {
+        let row = "<tr>" + 
+                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + contemporary[i].Culture + "</a>" + "</td>" +
+                        "<td>" + contemporary[i].Affinity + "</td>" +
+                        "<td>" + contemporary[i]["Legacy trait"] + "</td>" +
+                        "<td>" + contemporary[i]["Emblematic unit"] + "</td>" +
+                        "<td>" + contemporary[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + contemporary[i]["Affinity action"] + "</td>" +
+                        "<td>" + contemporary[i]["Affinity bonus"] + "</td>" +
+                    "</tr>"
+
+        //Append row to table
+        contemporaryTable.innerHTML += row;
+    };
+
+    //Append to div
+    myTableDiv.appendChild(contemporaryTable);
+};
