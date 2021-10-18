@@ -25,6 +25,12 @@ function buildAncientTable() {
     let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
     let headerRow = document.createElement("tr");
 
+    //Create and append H2 for table
+    const ancientH2 = document.createElement("h2");
+    const ancientH2Text = document.createTextNode("Ancient Era");
+    ancientH2.appendChild(ancientH2Text);
+    ancientTable.appendChild(ancientH2);
+
     //Headers for table
     headers.forEach(headerText => {
         let header = document.createElement("th");
@@ -69,6 +75,12 @@ function buildClassicalTable() {
     classicalTable.id = "classical-table";
     let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
     let headerRow = document.createElement("tr");
+
+    //Create and append H2 for table
+    const classicalH2 = document.createElement("h2");
+    const classicalH2Text = document.createTextNode("Classical Era");
+    classicalH2.appendChild(classicalH2Text);
+    classicalTable.appendChild(classicalH2);
 
     //Headers for table
     headers.forEach(headerText => {
@@ -115,6 +127,12 @@ function buildMedievalTable() {
     let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
     let headerRow = document.createElement("tr");
 
+    //Create and append H2 for table
+    const medievalH2 = document.createElement("h2");
+    const medievalH2Text = document.createTextNode("Medieval Era");
+    medievalH2.appendChild(medievalH2Text);
+    medievalTable.appendChild(medievalH2);
+
     //Headers for table
     headers.forEach(headerText => {
         let header = document.createElement("th");
@@ -143,4 +161,55 @@ function buildMedievalTable() {
 
     //Append to div
     myTableDiv.appendChild(medievalTable);
+};
+
+//EARLY MODERN TABLE
+buildEarlyModernTable();
+
+function buildEarlyModernTable() {
+    //Only returns objects for the Early Modern era
+    const earlyModern = cultures.filter(obj => {
+        return obj.Era === "Early Modern";
+    });
+    
+    //Create table + headers
+    const earlyModernTable = document.createElement("table"); 
+    earlyModernTable.id = "early-modern-table";
+    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    let headerRow = document.createElement("tr");
+
+    //Create and append H2 for table
+    const earlyModernH2 = document.createElement("h2");
+    const earlyModernH2Text = document.createTextNode("Early Modern Era");
+    earlyModernH2.appendChild(earlyModernH2Text);
+    earlyModernTable.appendChild(earlyModernH2);
+
+    //Headers for table
+    headers.forEach(headerText => {
+        let header = document.createElement("th");
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+
+    earlyModernTable.appendChild(headerRow);
+
+    //Table data
+    for (let i = 0; i < earlyModern.length; i++) {
+        let row = "<tr>" + 
+                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + earlyModern[i].Culture + "</a>" + "</td>" +
+                        "<td>" + earlyModern[i].Affinity + "</td>" +
+                        "<td>" + earlyModern[i]["Legacy trait"] + "</td>" +
+                        "<td>" + earlyModern[i]["Emblematic unit"] + "</td>" +
+                        "<td>" + earlyModern[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + earlyModern[i]["Affinity action"] + "</td>" +
+                        "<td>" + earlyModern[i]["Affinity bonus"] + "</td>" +
+                    "</tr>"
+
+        //Append row to table
+        earlyModernTable.innerHTML += row;
+    };
+
+    //Append to div
+    myTableDiv.appendChild(earlyModernTable);
 };
