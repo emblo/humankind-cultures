@@ -10,9 +10,9 @@ window.onload = function() {
 //Append tables to this div
 let myTableDiv = document.getElementById("tables");
 
+//ANCIENT TABLE
 buildAncientTable();
 
-//Ancient table
 function buildAncientTable() {
     //Only returns objects for the Ancient era
     const ancient = cultures.filter(obj => {
@@ -46,15 +46,18 @@ function buildAncientTable() {
                         "<td>" + ancient[i]["Affinity action"] + "</td>" +
                         "<td>" + ancient[i]["Affinity bonus"] + "</td>" +
                     "</tr>"
+
+        //Append row to table
         ancientTable.innerHTML += row;
     };
 
+    //Append to div
     myTableDiv.appendChild(ancientTable);
 };
 
+//CLASSICAL TABLE
 buildClassicalTable();
 
-//Classical table
 function buildClassicalTable() {
     //Only returns objects for the Classical era
     const classical = cultures.filter(obj => {
@@ -88,8 +91,11 @@ function buildClassicalTable() {
                         "<td>" + classical[i]["Affinity action"] + "</td>" +
                         "<td>" + classical[i]["Affinity bonus"] + "</td>" +
                     "</tr>"
+
+        //Append row to table
         classicalTable.innerHTML += row;
     };
 
+    //Append to div
     myTableDiv.appendChild(classicalTable);
 };
