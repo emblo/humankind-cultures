@@ -68,7 +68,9 @@ let cultures = [
         "Emblematic unit": "Gigir",
         "Emblematic quarter": "Awari",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Ancient",
@@ -79,7 +81,9 @@ let cultures = [
         "Emblematic unit": "Promachoi",
         "Emblematic quarter": "Cyclopean Fortress",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Ancient",
@@ -182,7 +186,9 @@ let cultures = [
         "Emblematic unit": "Gothic Cavalry",
         "Emblematic quarter": "Tumulus",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Classical",
@@ -206,7 +212,9 @@ let cultures = [
         "Emblematic unit": "Hunnic Horde",
         "Emblematic quarter": "Ordu",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Classical",
@@ -254,7 +262,9 @@ let cultures = [
         "Emblematic unit": "Jaguar Warriors",
         "Emblematic quarter": "Sacrificial Altar",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Medieval",
@@ -324,7 +334,9 @@ let cultures = [
         "Emblematic unit": "Mongol Horde",
         "Emblematic quarter": "Orda",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Medieval",
@@ -335,7 +347,9 @@ let cultures = [
         "Emblematic unit": "Langskip",
         "Emblematic quarter": "Naust",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Medieval",
@@ -457,7 +471,9 @@ let cultures = [
         "Emblematic unit": "Winged Hussars",
         "Emblematic quarter": "Barbican",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Early Modern",
@@ -529,7 +545,9 @@ let cultures = [
         "Emblematic unit": "Uboat",
         "Emblematic quarter": "Coking Works",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Industrial",
@@ -603,7 +621,9 @@ let cultures = [
         "Emblematic unit": "Impi",
         "Emblematic quarter": "Warrior's Izindlu",
         "Affinity action": "Iron Reserves",
-        "Affinity bonus": "Vigilance"
+        "Affinity action info": "Instantly raise Militia Armies in your cities.",
+        "Affinity bonus": "Vigilance",
+        "Affinity bonus info": "+30 War Support equilibrium value on relations."
     },
     {
         "Era": "Contemporary",
