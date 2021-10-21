@@ -42,7 +42,9 @@ let cultures = [
         "Emblematic unit": "Markabata",
         "Emblematic quarter": "Egyptian Pyramid",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Ancient",
@@ -222,7 +224,9 @@ let cultures = [
         "Emblematic unit": "Noble Javelineers",
         "Emblematic quarter": "K'uh Nah",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Classical",
@@ -301,7 +305,9 @@ let cultures = [
         "Emblematic unit": "Dhanvī-gaja",
         "Emblematic quarter": "Baray",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Medieval",
@@ -417,7 +423,9 @@ let cultures = [
         "Emblematic unit": "Gajnal",
         "Emblematic quarter": "Jama Masjid",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Early Modern",
@@ -546,7 +554,9 @@ let cultures = [
         "Emblematic unit": "Jazayerchis",
         "Emblematic quarter": "Caravanserai",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Industrial",
@@ -570,7 +580,9 @@ let cultures = [
         "Emblematic unit": "Gatling Elephant",
         "Emblematic quarter": "Floating Market",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Industrial",
@@ -605,7 +617,9 @@ let cultures = [
         "Emblematic unit": "All Terrain PMV",
         "Emblematic quarter": "Strip Mining Complex",
         "Affinity action": "Land Raiser",
-        "Affinity bonus": "Pride"
+        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity bonus": "Pride",
+        "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
     {
         "Era": "Contemporary",
