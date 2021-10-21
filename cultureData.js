@@ -94,7 +94,9 @@ let cultures = [
         "Emblematic unit": "Ta-Seti Archers",
         "Emblematic quarter": "Meroe Pyramids",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Ancient",
@@ -116,7 +118,9 @@ let cultures = [
         "Emblematic unit": "Bireme",
         "Emblematic quarter": "Haven",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Ancient",
@@ -151,7 +155,9 @@ let cultures = [
         "Emblematic unit": "Shotelai",
         "Emblematic quarter": "Great Obelisk",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Classical",
@@ -162,7 +168,9 @@ let cultures = [
         "Emblematic unit": "War Elephant",
         "Emblematic quarter": "Cothon",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Classical",
@@ -275,7 +283,9 @@ let cultures = [
         "Emblematic unit": "Varangian Guards",
         "Emblematic quarter": "Hippódromos",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Medieval",
@@ -310,7 +320,9 @@ let cultures = [
         "Emblematic unit": "Meharists",
         "Emblematic quarter": "Luxuries Market",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Medieval",
@@ -386,7 +398,9 @@ let cultures = [
         "Emblematic unit": "Fluyt",
         "Emblematic quarter": "V.O.C Warehouse",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Early Modern",
@@ -497,7 +511,9 @@ let cultures = [
         "Emblematic unit": "Galleass",
         "Emblematic quarter": "Botteghe Di Artisti",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Industrial",
@@ -673,7 +689,9 @@ let cultures = [
         "Emblematic unit": "Guardians",
         "Emblematic quarter": "Congress",
         "Affinity action": "Power Investor",
-        "Affinity bonus": "Mediation"
+        "Affinity action info": "Use influence to marshal venture capital towards a resource deposit by creating an extractor or generating money.",
+        "Affinity bonus": "Mediation",
+        "Affinity bonus info": "Any resource bought via trade can be re-purchased by other Empires."
     },
     {
         "Era": "Contemporary",
