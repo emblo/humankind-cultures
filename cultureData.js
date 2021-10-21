@@ -25,10 +25,13 @@ let cultures = [
         "Affinity": "Scientist",
         "Affinity Wiki Link": "https://humankind.fandom.com/wiki/Scientist",
         "Legacy trait": "Brilliant Philosophers",
+        "Legacy trait info": "+2 Science per researched technology on Capital.",
         "Emblematic unit": "Ṣäbu Ša Qašti",
         "Emblematic quarter": "Astronomy House",
         "Affinity action": "Collective Minds",
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Ancient",
@@ -184,7 +187,9 @@ let cultures = [
         "Emblematic unit": "Hoplites",
         "Emblematic quarter": "Amphitheatron",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Classical",
@@ -342,7 +347,9 @@ let cultures = [
         "Emblematic unit": "Haras",
         "Emblematic quarter": "Grand Mosque",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Early Modern",
@@ -386,7 +393,9 @@ let cultures = [
         "Emblematic unit": "Geobukseon",
         "Emblematic quarter": "Seowon",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Early Modern",
@@ -491,7 +500,9 @@ let cultures = [
         "Emblematic unit": "Cuirassiers",
         "Emblematic quarter": "Exhibition Hall",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Industrial",
@@ -649,7 +660,9 @@ let cultures = [
         "Emblematic unit": "Reisen",
         "Emblematic quarter": "Robotics Lab",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Contemporary",
@@ -673,7 +686,9 @@ let cultures = [
         "Emblematic unit": "Stealth Corvette",
         "Emblematic quarter": "Research Institute",
         "Affinity action": "Collective Minds",
-        "Affinity bonus": "Foresight"
+        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity bonus": "Foresight",
+        "Affinity bonus info": "+1 Era available to research."
     },
     {
         "Era": "Contemporary",
