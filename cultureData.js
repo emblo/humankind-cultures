@@ -9,10 +9,15 @@ let cultures = [
         "Affinity": "Expansionist",
         "Affinity Wiki Link": "https://humankind.fandom.com/wiki/Expansionist",
         "Legacy trait": "Raid Masters",
+        "Legacy trait info": "+1 Land Movement Speed on Unit, +5 Combat Strength bonus when Ransacking on Army",
         "Emblematic unit": "Assyrian Raiders",
+        "Emblematic unit Wiki link": "https://humankind.fandom.com/wiki/Assyrian_Raiders",
         "Emblematic quarter": "Dunnu",
+        "Emblematic quarter Wiki link": "https://humankind.fandom.com/wiki/Dunnu",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Ancient",
@@ -122,7 +127,9 @@ let cultures = [
         "Emblematic unit": "Immortals",
         "Emblematic quarter": "Satrap Palace",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Classical",
@@ -221,7 +228,9 @@ let cultures = [
         "Emblematic unit": "Praetorian Guards",
         "Emblematic quarter": "Triumphal Arch",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Medieval",
@@ -320,7 +329,9 @@ let cultures = [
         "Emblematic unit": "Teutonic Knights",
         "Emblematic quarter": "Kaiserdom",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Medieval",
@@ -408,7 +419,9 @@ let cultures = [
         "Emblematic unit": "Janissaries",
         "Emblematic quarter": "Sultan Camii",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Early Modern",
@@ -430,7 +443,9 @@ let cultures = [
         "Emblematic unit": "Conquistadores",
         "Emblematic quarter": "Catedral Gótica",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Early Modern",
@@ -463,7 +478,9 @@ let cultures = [
         "Emblematic unit": "Redcoats",
         "Emblematic quarter": "Colonial Office",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Industrial",
@@ -529,7 +546,9 @@ let cultures = [
         "Emblematic unit": "Cossacks",
         "Emblematic quarter": "Sobor",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Industrial",
@@ -562,7 +581,9 @@ let cultures = [
         "Emblematic unit": "Lightning",
         "Emblematic quarter": "Defense Agency",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Contemporary",
@@ -639,7 +660,9 @@ let cultures = [
         "Emblematic unit": "Red Army Tank",
         "Emblematic quarter": "Arms Factory",
         "Affinity action": "Under One Banner",
-        "Affinity bonus": "Ambition"
+        "Affinity action info": "Forcibly annex territories occupied by other Empires outposts and admin centers.",
+        "Affinity bonus": "Ambition",
+        "Affinity bonus info": "Always able to trespass."
     },
     {
         "Era": "Contemporary",
