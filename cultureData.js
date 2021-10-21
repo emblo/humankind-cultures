@@ -107,7 +107,9 @@ let cultures = [
         "Emblematic unit": "Javelin Throwers",
         "Emblematic quarter": "Olmec Head",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Ancient",
@@ -131,7 +133,9 @@ let cultures = [
         "Emblematic unit": "Zhànche",
         "Emblematic quarter": "Confucian School",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Classical",
@@ -233,7 +237,9 @@ let cultures = [
         "Emblematic unit": "Saṃnāhya",
         "Emblematic quarter": "Stūpa",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Classical",
@@ -309,7 +315,9 @@ let cultures = [
         "Emblematic unit": "Franci Milites",
         "Emblematic quarter": "Scriptorium",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Medieval",
@@ -411,7 +419,9 @@ let cultures = [
         "Emblematic unit": "Naginata Samurai",
         "Emblematic quarter": "Tera",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Early Modern",
@@ -448,7 +458,9 @@ let cultures = [
         "Emblematic unit": "Rocket Cart",
         "Emblematic quarter": "Grand Teahouse",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Early Modern",
@@ -524,7 +536,9 @@ let cultures = [
         "Emblematic unit": "Evidenzbureau Agents",
         "Emblematic quarter": "Opernhaus",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Industrial",
@@ -574,7 +588,9 @@ let cultures = [
         "Emblematic unit": "Alpini",
         "Emblematic quarter": "Teatro",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Industrial",
@@ -702,7 +718,9 @@ let cultures = [
         "Emblematic unit": "Free Officers",
         "Emblematic quarter": "Archaeological Dig",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Contemporary",
@@ -713,7 +731,9 @@ let cultures = [
         "Emblematic unit": "Peacekeepers",
         "Emblematic quarter": "Ashram",
         "Affinity action": "Cultural Blitz",
-        "Affinity bonus": "Grace"
+        "Affinity action info": "Spend money promoting patriotism in a territory, pushing back foreign influence and generating influence.",
+        "Affinity bonus": "Grace",
+        "Affinity bonus info": "Cultural Proximity is always maxed out."
     },
     {
         "Era": "Contemporary",
