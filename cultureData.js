@@ -55,7 +55,9 @@ let cultures = [
         "Emblematic unit": "Runner",
         "Emblematic quarter": "Canal Network",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Ancient",
@@ -167,7 +169,9 @@ let cultures = [
         "Emblematic unit": "Gaesati",
         "Emblematic quarter": "Nemeton",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Classical",
@@ -272,7 +276,9 @@ let cultures = [
         "Emblematic unit": "Longbowmen",
         "Emblematic quarter": "Stronghold",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Medieval",
@@ -388,7 +394,9 @@ let cultures = [
         "Emblematic unit": "Rotiskenrakehte",
         "Emblematic quarter": "Three Sisters Plantation",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Early Modern",
@@ -543,7 +551,9 @@ let cultures = [
         "Emblematic unit": "Soldaderas",
         "Emblematic quarter": "Hacienda",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Industrial",
@@ -630,7 +640,9 @@ let cultures = [
         "Emblematic unit": "Jungle Brigades",
         "Emblematic quarter": "Agronomy Lab",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     },
     {
         "Era": "Contemporary",
@@ -713,6 +725,8 @@ let cultures = [
         "Emblematic unit": "Stealthy Operative Missile",
         "Emblematic quarter": "Public School",
         "Affinity action": "Greener Pastures",
-        "Affinity bonus": "Community"
+        "Affinity action info": "Attract 1 population from each adjacent territory's city or outpost.",
+        "Affinity bonus": "Community",
+        "Affinity bonus info": "Gain 5 stability when gaining population."
     }
 ];
