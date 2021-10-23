@@ -29,6 +29,7 @@ function buildTable(era) {
 
     //Create table + headers
     const eraTable = document.createElement("table"); 
+    eraTable.setAttribute("id", era[0].Era + "-table")
     const headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
     const headerRow = document.createElement("tr");
 

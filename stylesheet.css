@@ -72,7 +72,7 @@ li {
     font-size: 1.1rem;
 }
 
-a, 
+nav a, 
 a:visited, 
 a:link, 
 a:active {
@@ -80,11 +80,11 @@ a:active {
     color: #FBFBFB;
 }
 
-a:hover {
+nav a:hover {
     color: #DA99A8;
 }
 
-.main-content {
+.container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
