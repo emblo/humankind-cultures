@@ -56,6 +56,7 @@ html, body {
     background-attachment: fixed;
 }
 
+/*HEADER*/
 header {
     background-color: #000000;
     padding: 10px;
@@ -64,6 +65,7 @@ header {
     border-bottom: solid 1px #DA99A8;
 }
 
+/*NAV MENU*/
 li {
     display: inline;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -73,9 +75,9 @@ li {
 }
 
 nav a, 
-a:visited, 
-a:link, 
-a:active {
+nav a:visited, 
+nav a:link, 
+nav a:active {
     text-decoration: none;
     color: #FBFBFB;
 }
@@ -83,7 +85,9 @@ a:active {
 nav a:hover {
     color: #DA99A8;
 }
+/*END OF HEADER*/
 
+/*CONTAINER*/
 .container {
     width: 80%;
     margin-left: auto;
@@ -92,5 +96,9 @@ nav a:hover {
     background-color: #E1E1E1;
     padding: 10px;
 }
+/*END OF CONTAINER*/
+
+/*FOOTER*/
+/*END OF FOOTER*/
 
 
