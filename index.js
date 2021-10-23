@@ -18,6 +18,7 @@ const earlyModern = cultures.filter(obj => { return obj.Era === "Early Modern"; 
 const industrial = cultures.filter(obj => { return obj.Era === "Industrial"; });
 const contemporary = cultures.filter(obj => { return obj.Era === "Contemporary"; });
 
+//Build tables for each era
 buildTable(ancient);
 buildTable(classical);
 buildTable(medieval);
@@ -50,7 +51,7 @@ function buildTable(era) {
     //Table data
     for (let i = 0; i < era.length; i++) {
         const row = "<tr>" + 
-                        "<td>" + "<a href='" + "https://www.google.com'" + ">" + era[i].Culture + "</a>" + "</td>" +
+                        "<td>" + era[i].Culture + "</td>" +
                         "<td>" + era[i].Affinity + "</td>" +
                         "<td>" + era[i]["Legacy trait"] + "</td>" +
                         "<td>" + era[i]["Emblematic unit"] + "</td>" +
