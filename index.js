@@ -7,9 +7,6 @@ window.onload = function() {
     document.getElementById("year").innerHTML = date;
 }
 
-//Append tables to this div
-let myTableDiv = document.getElementById("tables");
-
 //Era variables
 const ancient = cultures.filter(obj => { return obj.Era === "Ancient"; });
 const classical = cultures.filter(obj => { return obj.Era === "Classical"; });
@@ -27,6 +24,9 @@ buildTable(industrial);
 buildTable(contemporary);
 
 function buildTable(era) {
+    //Append tables to this div
+    let myTableDiv = document.getElementById("tables");
+
     //Create table + headers
     const eraTable = document.createElement("table"); 
     const headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
@@ -46,18 +46,19 @@ function buildTable(era) {
         headerRow.appendChild(header);
     });
 
+    //Append headers to table
     eraTable.appendChild(headerRow);
 
     //Table data
     for (let i = 0; i < era.length; i++) {
         const row = "<tr>" + 
                         "<td>" + era[i].Culture + "</td>" +
-                        "<td>" + era[i].Affinity + "</td>" +
-                        "<td>" + era[i]["Legacy trait"] + "</td>" +
-                        "<td>" + era[i]["Emblematic unit"] + "</td>" +
-                        "<td>" + era[i]["Emblematic quarter"]+ "</td>" +
-                        "<td>" + era[i]["Affinity action"] + "</td>" +
-                        "<td>" + era[i]["Affinity bonus"] + "</td>" +
+                        "<td>" + "<a href='" + era[i]["Affinity wiki link"] + "' target='blank'>"  + era[i].Affinity + "</a>" +"</td>" +
+                        "<td title='" + era[i]["Legacy trait info"] + "'>" + era[i]["Legacy trait"] + "</td>" +
+                        "<td>" + "<a href='" + era[i]["Emblematic unit wiki link"] + "' target='blank'>" + era[i]["Emblematic unit"] + "</a>" + "</td>" +
+                        "<td>" + "<a href='" + era[i]["Emblematic quarter wiki link"] + "' " + "target='blank'>" + era[i]["Emblematic quarter"]+ "</td>" +
+                        "<td title='" + era[i]["Affinity action info"] + "'>" + era[i]["Affinity action"] + "</td>" +
+                        "<td title='" + era[i]["Affinity bonus info"] + "'>" + era[i]["Affinity bonus"] + "</td>" +
                     "</tr>"
 
         //Append row to table
