@@ -27,9 +27,9 @@ buildTable(contemporary);
 
 function buildTable(era) {
     //Create table + headers
-    let eraTable = document.createElement("table"); 
-    let headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
-    let headerRow = document.createElement("tr");
+    const eraTable = document.createElement("table"); 
+    const headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
+    const headerRow = document.createElement("tr");
 
     //Create and append H2 for table
     const eraH2 = document.createElement("h2");
@@ -39,8 +39,8 @@ function buildTable(era) {
 
     //Headers for table
     headers.forEach(headerText => {
-        let header = document.createElement("th");
-        let textNode = document.createTextNode(headerText);
+        const header = document.createElement("th");
+        const textNode = document.createTextNode(headerText);
         header.appendChild(textNode);
         headerRow.appendChild(header);
     });
@@ -49,7 +49,7 @@ function buildTable(era) {
 
     //Table data
     for (let i = 0; i < era.length; i++) {
-        let row = "<tr>" + 
+        const row = "<tr>" + 
                         "<td>" + "<a href='" + "https://www.google.com'" + ">" + era[i].Culture + "</a>" + "</td>" +
                         "<td>" + era[i].Affinity + "</td>" +
                         "<td>" + era[i]["Legacy trait"] + "</td>" +
