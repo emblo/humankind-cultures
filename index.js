@@ -11,29 +11,12 @@ window.onload = function() {
 let myTableDiv = document.getElementById("tables");
 
 //Era variables
-const ancient = cultures.filter(obj => {
-    return obj.Era === "Ancient";
-});
-
-const classical = cultures.filter(obj => {
-    return obj.Era === "Classical";
-});
-
-const medieval = cultures.filter(obj => {
-    return obj.Era === "Medieval";
-});
-
-const earlyModern = cultures.filter(obj => {
-    return obj.Era === "Early Modern";
-});
-
-const industrial = cultures.filter(obj => {
-    return obj.Era === "Industrial";
-});
-
-const contemporary = cultures.filter(obj => {
-    return obj.Era === "Contemporary";
-});
+const ancient = cultures.filter(obj => { return obj.Era === "Ancient"; });
+const classical = cultures.filter(obj => { return obj.Era === "Classical"; });
+const medieval = cultures.filter(obj => { return obj.Era === "Medieval"; });
+const earlyModern = cultures.filter(obj => { return obj.Era === "Early Modern"; });
+const industrial = cultures.filter(obj => { return obj.Era === "Industrial"; });
+const contemporary = cultures.filter(obj => { return obj.Era === "Contemporary"; });
 
 buildTable(ancient);
 buildTable(classical);
