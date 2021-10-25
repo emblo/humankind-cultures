@@ -110,7 +110,7 @@ li {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     line-height: 91px;
     padding-right: 40px;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 nav a, 
@@ -141,6 +141,12 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .container {
+        background-color: rgba(248, 239, 239, 0.7);
+    }
+  }
+
 /*Table settings*/
 h2 {
     padding: 30px 0px 20px 0px;
@@ -157,16 +163,50 @@ table {
     color: #222222;
 }
 
-td {
-    width: 15%;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    padding: 5px 0px 5px 0px;
-}
-
 th {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-weight: bold;
+}
+
+td {
+    width: 15%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 5px 0px 5px 0px;
+    position: relative;
+}
+
+td[title]:hover {
+    cursor: help;
+}
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover::after {
+    background: #000000;
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #000000 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
 }
 /*END OF CONTAINER*/
 

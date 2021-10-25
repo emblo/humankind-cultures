@@ -31,7 +31,7 @@ let cultures = [
         "Emblematic quarter": "Astronomy House",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Astronomy_House",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -47,7 +47,7 @@ let cultures = [
         "Emblematic quarter": "Egyptian Pyramid",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Egyptian_Pyramid",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -255,7 +255,7 @@ let cultures = [
         "Emblematic quarter": "Amphitheatron",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Amphitheatron",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -303,7 +303,7 @@ let cultures = [
         "Emblematic quarter": "K'uh Nah",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/K%27uh_Nah",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -415,7 +415,7 @@ let cultures = [
         "Emblematic quarter": "Baray",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Baray", 
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -479,7 +479,7 @@ let cultures = [
         "Emblematic quarter": "Grand Mosque",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Grand_Mosque",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -543,7 +543,7 @@ let cultures = [
         "Emblematic quarter": "Seowon",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Seowon",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -575,7 +575,7 @@ let cultures = [
         "Emblematic quarter": "Jama Masjid",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Jama_Masjid",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -687,7 +687,7 @@ let cultures = [
         "Emblematic quarter": "Exhibition Hall",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Exhibition_Hall",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -751,7 +751,7 @@ let cultures = [
         "Emblematic quarter": "Caravanserai",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Caravanserai",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -783,7 +783,7 @@ let cultures = [
         "Emblematic quarter": "Floating Market",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Floating_Market",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -831,7 +831,7 @@ let cultures = [
         "Emblematic quarter": "Strip Mining Complex",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Strip_Mining_Complex",
         "Affinity action": "Land Raiser",
-        "Affinity action info": "Set city into 'Land Raiser' mode where all the money and science of a city is converted into industry.",
+        "Affinity action info": "Set city into Land Raiser mode where all the money and science of a city is converted into industry.",
         "Affinity bonus": "Pride",
         "Affinity bonus info": "Gain 10 stability when completing a District's construction."
     },
@@ -911,7 +911,7 @@ let cultures = [
         "Emblematic quarter": "Robotics Lab",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Robotics_Lab",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
@@ -943,7 +943,7 @@ let cultures = [
         "Emblematic quarter": "Research Institute",
         "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Research_Institute_(district)",
         "Affinity action": "Collective Minds",
-        "Affinity action info": "Set city into 'Collective Minds' mode, where all industry and money output is converted into science.",
+        "Affinity action info": "Set city into Collective Minds mode, where all industry and money output is converted into science.",
         "Affinity bonus": "Foresight",
         "Affinity bonus info": "+1 Era available to research."
     },
