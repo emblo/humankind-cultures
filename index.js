@@ -29,13 +29,13 @@ function buildTable(era) {
 
     //Create table + headers
     const eraTable = document.createElement("table"); 
-    eraTable.setAttribute("id", era[0].Era + "-table")
     const headers = ["Culture", "Affinity", "Legacy Trait", "Emblematic Unit", "Emblematic Quarter", "Affinity Action", "Affinity Bonus"];
     const headerRow = document.createElement("tr");
 
     //Create and append H2 for table
     const eraH2 = document.createElement("h2");
     const eraH2Text = document.createTextNode(era[0].Era + " Era");
+    eraH2.setAttribute("id", era[0].Era + "-table")
     eraH2.appendChild(eraH2Text);
     myTableDiv.appendChild(eraH2);
 
