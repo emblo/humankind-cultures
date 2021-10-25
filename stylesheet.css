@@ -49,12 +49,36 @@ table {
 
 /********************************************************************************/
 
+/*HTML, BODY SETTINGS*/
 html, body {
     background-image: url("/images/bg-img.webp");
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-attachment: fixed;
 }
+
+
+/*SCROLLBAR*/
+/*Chrome, Edge, Safari*/
+*::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+*::-webkit-scrollbar-track {
+    background: #000000;       
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: #DA99A8;    
+    border-radius: 20px;       
+}
+
+/*Firefox*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #DA99A8 #000000;
+}
+/*END OF HTML, BODY SETTINGS*/
 
 /*HEADER*/
 header {
@@ -89,16 +113,49 @@ nav a:hover {
 
 /*CONTAINER*/
 .container {
+    background-color: rgba(255, 255, 255,0.1);
+    padding: 60px;
+    border-radius: 25px;
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    backdrop-filter: blur(30px);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    background-color: #E1E1E1;
-    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+td {
+    width: 14%;
+}
+
+th {
+    text-align: left;
 }
 /*END OF CONTAINER*/
 
 /*FOOTER*/
+footer {
+    left: 0;
+    bottom: 0;
+    position:initial;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-top: solid 1px #DA99A8;
+}
 /*END OF FOOTER*/
 
 
