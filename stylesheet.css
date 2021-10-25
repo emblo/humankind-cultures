@@ -89,7 +89,7 @@ header {
     border-bottom: solid 1px #DA99A8;
 }
 
-/*NAV MENU*/
+/*Nav menu*/
 li {
     display: inline;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -126,8 +126,12 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+/*Table settings*/
 h2 {
     padding: 20px 0px 10px 0px;
+    color: #F1F1F1;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 table {

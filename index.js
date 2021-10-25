@@ -37,7 +37,7 @@ function buildTable(era) {
     const eraH2 = document.createElement("h2");
     const eraH2Text = document.createTextNode(era[0].Era + " Era");
     eraH2.appendChild(eraH2Text);
-    eraTable.appendChild(eraH2);
+    myTableDiv.appendChild(eraH2);
 
     //Headers for table
     headers.forEach(headerText => {
