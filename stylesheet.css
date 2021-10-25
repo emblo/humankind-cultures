@@ -180,11 +180,6 @@ td[title]:hover {
     cursor: help;
 }
 
-.tooltip {
-    display: inline;
-    position: relative;
-}
-
 .tooltip:hover::after {
     background: #000000;
     border-radius: 5px;

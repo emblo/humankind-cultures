@@ -55,11 +55,11 @@ function buildTable(era) {
         const row = "<tr>" + 
                         "<td>" + era[i].Culture + "</td>" +
                         "<td>" + "<a href='" + era[i]["Affinity wiki link"] + "' target='blank'>"  + era[i].Affinity + "</a>" +"</td>" +
-                        "<td title='" + era[i]["Legacy trait info"] + "' >" + era[i]["Legacy trait"] + "</td>" +
+                        "<td title='" + era[i]["Legacy trait info"] + "' class='tooltip'>" + era[i]["Legacy trait"] + "</td>" +
                         "<td>" + "<a href='" + era[i]["Emblematic unit wiki link"] + "' target='blank'>" + era[i]["Emblematic unit"] + "</a>" + "</td>" +
-                        "<td>" + "<a href='" + era[i]["Emblematic quarter wiki link"] + "' " + "target='blank'>" + era[i]["Emblematic quarter"]+ "</td>" +
-                        "<td title='" + era[i]["Affinity action info"] + "'>" + era[i]["Affinity action"] + "</td>" +
-                        "<td title='" + era[i]["Affinity bonus info"] + "'>" + era[i]["Affinity bonus"] + "</td>" +
+                        "<td>" + "<a href='" + era[i]["Emblematic quarter wiki link"] + "' target='blank'>" + era[i]["Emblematic quarter"]+ "</td>" +
+                        "<td title='" + era[i]["Affinity action info"] + "' class='tooltip'>" + era[i]["Affinity action"] + "</td>" +
+                        "<td title='" + era[i]["Affinity bonus info"] + "' class='tooltip'>" + era[i]["Affinity bonus"] + "</td>" +
                     "</tr>"
 
         //Append row to table
