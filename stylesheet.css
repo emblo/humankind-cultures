@@ -97,9 +97,9 @@ header {
 
 h1 {
     color: #FBFBFB;
-    font-size: 1.8em;
+    font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     display: inline;
     padding-left: 15px;
 }
@@ -134,7 +134,7 @@ nav a:hover {
     border: solid 2px transparent;
     background-clip: padding-box;
     backdrop-filter: blur(20px);
-    width: 70%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -149,11 +149,13 @@ nav a:hover {
 
 /*Table settings*/
 h2 {
-    padding: 30px 0px 20px 0px;
+    padding: 50px 0px 20px 0px;
     color: #222222;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 table {
@@ -167,15 +169,28 @@ th {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 110%;
+    padding-bottom: 5px;
+}
+
+td a {
+    text-decoration: none;
+    color: #222222;
+}
+
+td a:hover {
+    color: #FBFBFB;
 }
 
 td {
     width: 15%;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     padding: 5px 0px 5px 0px;
+    font-size: 115%;
     position: relative;
 }
 
+/*Tooltip*/
 td[title]:hover {
     cursor: help;
 }
@@ -184,7 +199,7 @@ td[title]:hover {
     background: #000000;
     border-radius: 5px;
     bottom: 26px;
-    color: #fff;
+    color: #FBFBFB;
     content: attr(title);
     left: 20%;
     padding: 5px 15px;
