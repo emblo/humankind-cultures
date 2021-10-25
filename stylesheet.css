@@ -89,13 +89,19 @@ header {
     border-bottom: solid 1px #DA99A8;
 }
 
+/*Site identity*/
+#site-identity {
+    display: flex;
+    align-items: center;
+}
+
 h1 {
     color: #FBFBFB;
-    line-height: 91px;
-    font-size: 1.7em;
-    padding-left: 10px;
+    font-size: 1.8em;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     letter-spacing: 2px;
+    display: inline;
+    padding-left: 15px;
 }
 
 /*Nav menu*/
