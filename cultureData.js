@@ -93,7 +93,7 @@ let cultures = [
         "Emblematic unit": "Promachoi",
         "Emblematic unit wiki link": "https://humankind.fandom.com/wiki/Promachoi",
         "Emblematic quarter": "Cyclopean Fortress",
-        "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Promachoi",
+        "Emblematic quarter wiki link": "https://humankind.fandom.com/wiki/Cyclopean_Fortress",
         "Affinity action": "Iron Reserves",
         "Affinity action info": "Instantly raise Militia Armies in your cities.",
         "Affinity bonus": "Vigilance",

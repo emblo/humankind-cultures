@@ -89,13 +89,22 @@ header {
     border-bottom: solid 1px #DA99A8;
 }
 
+h1 {
+    color: #FBFBFB;
+    line-height: 91px;
+    font-size: 1.7em;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
 /*Nav menu*/
 li {
     display: inline;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     line-height: 91px;
     padding-right: 40px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 nav a, 
@@ -113,13 +122,13 @@ nav a:hover {
 
 /*CONTAINER*/
 .container {
-    background-color: rgba(255, 255, 255,0.1);
-    padding: 60px;
+    background-color: rgba(255, 255, 255,0.3);
+    padding: 30px 60px 30px 60px;
     border-radius: 25px;
     border: solid 2px transparent;
     background-clip: padding-box;
-    backdrop-filter: blur(30px);
-    width: 80%;
+    backdrop-filter: blur(20px);
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -128,9 +137,9 @@ nav a:hover {
 
 /*Table settings*/
 h2 {
-    padding: 20px 0px 10px 0px;
+    padding: 30px 0px 20px 0px;
     color: #222222;
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -143,7 +152,7 @@ table {
 }
 
 td {
-    width: 14%;
+    width: 15%;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     padding: 5px 0px 5px 0px;
 }
