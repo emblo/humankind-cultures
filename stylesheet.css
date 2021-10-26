@@ -133,6 +133,15 @@ nav ul {
     outline: none;
 }
 
+/*Arrow, only show on tablets/phones*/
+#arrow-right {
+    background-color: transparent;
+    color: #DA99A8;
+    padding-left: 10px;
+    filter: drop-shadow(2px 2px 2px #222222);
+    display: none;
+}
+
 li {
     display: inline;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -300,6 +309,9 @@ footer a:hover {
     #nav-ul.show {
         display: flex;
         line-height: 300%;
+    }
+    #arrow-right {
+        display: inline;
     }
     .hamburger {
         display: block;

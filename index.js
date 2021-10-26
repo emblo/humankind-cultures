@@ -10,6 +10,7 @@ window.onload = function() {
 //Hamburger menu
 const hamburger = document.getElementById("hamburger");
 const navUL = document.getElementById("nav-ul");
+const arrowToggle = document.querySelector(".fas fa-arrow-right");
 
 hamburger.addEventListener("click", () => {
     navUL.classList.toggle("show");
@@ -42,10 +43,14 @@ function buildTable(era) {
 
     //Create and append H2 for table
     const eraH2 = document.createElement("h2");
+    const mobileArrow = document.createElement("span");
+    mobileArrow.setAttribute("class", "fas fa-arrow-right");
+    mobileArrow.setAttribute("id", "arrow-right");
     const eraH2Text = document.createTextNode(era[0].Era + " Era");
     eraH2.setAttribute("id", era[0].Era + "-table")
     eraH2.appendChild(eraH2Text);
     myTableDiv.appendChild(eraH2);
+    eraH2.appendChild(mobileArrow);
 
     //Headers for table
     headers.forEach(headerText => {
