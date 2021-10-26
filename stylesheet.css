@@ -306,9 +306,16 @@ footer a:hover {
     }
     .container{
         width: 90%;
+        overflow-x: auto;
     }
     table {
-        display: none;
+        font-size: 90%;
+    }
+    td {
+        padding: 5px 15px 5px 15px;
+    }
+    h2 {
+        text-align: left;
     }
 }
 /*END OF MEDIA QUERIES*/
