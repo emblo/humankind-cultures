@@ -287,6 +287,49 @@ footer a:hover {
 /*END OF FOOTER*/
 
 /*MEDIA QUERIES*/
+/*Small laptops/tablets*/
+@media only screen and (max-width: 1450px) {
+    * {
+        box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+    }
+    #site-identity {
+        width: 70%;
+        padding: 0px;
+    }
+    #nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    #nav-ul.show {
+        display: flex;
+        line-height: 300%;
+    }
+    #arrow-right {
+        display: inline;
+    }
+    .hamburger {
+        display: block;
+    }
+    .container{
+        width: 90%;
+        overflow-x: auto;
+    }
+    table {
+        font-size: 90%;
+    }
+    td {
+        padding: 5px 15px 5px 15px;
+    }
+    h2 {
+        text-align: left;
+    }
+}
+
+/*Mobile devices*/
 @media only screen and (max-width: 600px) {
     * {
         box-sizing: border-box;
