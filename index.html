@@ -8,24 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheet.css" rel="stylesheet">
     <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Humankind Cultures</title>
 </head>
 <body>
     <header>
-        <div id="site-identity">
-            <a href="index.html"><img src="images/humankind-logo.webp" alt="Logo that looks like a hand with the silhoutte of a human in the middle of the palm." width="54" height="77"></a>
-            <span><h1>HUMANKIND CULTURES</h1> </span>
+        <div id="header">
+            <nav>
+                <div id="site-identity">
+                    <a href="index.html"><img src="images/humankind-logo.webp" id="logo-img" alt="Logo that looks like a hand with the silhoutte of a human in the middle of the palm." width="54" height="77"></a>
+                    <span><h1>HUMANKIND CULTURES</h1></span>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-ul" id="nav-ul">
+                    <li><a href="#Ancient-table">Ancient</a></li>
+                    <li><a href="#Classical-table">Classical</a></li>
+                    <li><a href="#Medieval-table">Medieval</a></li>
+                    <li><a href="#Early Modern-table">Early Modern</a></li>
+                    <li><a href="#Industrial-table">Industrial</a></li>
+                    <li><a href="#Contemporary-table">Contemporary</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#Ancient-table">Ancient</a></li>
-                <li><a href="#Classical-table">Classical</a></li>
-                <li><a href="#Medieval-table">Medieval</a></li>
-                <li><a href="#Early Modern-table">Early Modern</a></li>
-                <li><a href="#Industrial-table">Industrial</a></li>
-                <li><a href="#Contemporary-table">Contemporary</a></li>
-            </ul>
-        </nav>
     </header>
     <div class="container">
         <div id="tables"></div>
