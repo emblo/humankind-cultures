@@ -259,6 +259,10 @@ td[title]:hover {
     position: absolute;
     z-index: 99;
 }
+
+#external-link {
+    display: none;
+}
 /*END OF CONTAINER*/
 
 /*FOOTER*/
@@ -329,6 +333,14 @@ footer a:hover {
     }
     h2 {
         text-align: left;
+    }
+    .tooltip {
+        text-decoration: underline;
+    }
+    #external-link {
+        font-size: 15px;
+        padding-left: 10px;
+        display: inline;
     }
 }
 
