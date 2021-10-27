@@ -69,8 +69,8 @@ function buildTable(era) {
                         "<td>" + era[i].Culture + "</td>" +
                         "<td>" + "<a href='" + era[i]["Affinity wiki link"] + "' target='blank'>"  + era[i].Affinity + "</a>" + "<span class='fas fa-external-link-alt' id='external-link'></span>" + "</td>" +
                         "<td title='" + era[i]["Legacy trait info"] + "' class='tooltip'>" + era[i]["Legacy trait"] + "</td>" +
-                        "<td>" + "<a href='" + era[i]["Emblematic unit wiki link"] + "' target='blank'>" + era[i]["Emblematic unit"] + "</a>" + "</td>" +
-                        "<td>" + "<a href='" + era[i]["Emblematic quarter wiki link"] + "' target='blank'>" + era[i]["Emblematic quarter"]+ "</td>" +
+                        "<td>" + "<a href='" + era[i]["Emblematic unit wiki link"] + "' target='blank'>" + era[i]["Emblematic unit"] + "</a>" + "<span class='fas fa-external-link-alt' id='external-link'></span>" + "</td>" +
+                        "<td>" + "<a href='" + era[i]["Emblematic quarter wiki link"] + "' target='blank'>" + era[i]["Emblematic quarter"] + "<span class='fas fa-external-link-alt' id='external-link'></span>" + "</td>" +
                         "<td title='" + era[i]["Affinity action info"] + "' class='tooltip'>" + era[i]["Affinity action"] + "</td>" +
                         "<td title='" + era[i]["Affinity bonus info"] + "' class='tooltip'>" + era[i]["Affinity bonus"] + "</td>" +
                     "</tr>"
