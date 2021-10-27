@@ -299,6 +299,9 @@ footer a:hover {
     * {
         box-sizing: border-box;
     }
+    html, body {
+        background-size: cover;
+    }
     header {
         width: 100%;
     }
