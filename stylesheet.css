@@ -299,10 +299,16 @@ footer a:hover {
     * {
         box-sizing: border-box;
     }
-    html, body {
+    html {
+        height: 100%;
+        min-height: 100%;
+    }
+    body {
         background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
+
     header {
         width: 100%;
     }
