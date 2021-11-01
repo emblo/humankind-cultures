@@ -90,6 +90,12 @@ header {
     background-color: #000000;
     padding: 10px;
     border-bottom: solid 1px #DA99A8;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    max-width: 100%;
+    top: 0;
 }
 
 #site-identity {
@@ -176,7 +182,7 @@ nav a:hover {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 
@@ -329,6 +335,7 @@ footer a:hover {
     .container{
         width: 90%;
         overflow-x: auto;
+        margin-top: 180px;
     }
     table {
         font-size: 90%;
