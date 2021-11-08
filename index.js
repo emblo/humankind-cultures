@@ -47,9 +47,9 @@ function buildTable(era) {
     mobileArrow.setAttribute("class", "fas fa-arrow-right");
     mobileArrow.setAttribute("id", "arrow-right");
     const eraH2Text = document.createTextNode(era[0].Era + " Era");
-    eraH2.setAttribute("id", era[0].Era + "-table")
-    eraH2.appendChild(eraH2Text);
     myTableDiv.appendChild(eraH2);
+    eraH2.setAttribute("id", era[0].Era.replace(/\s/g, "-") + "-table")
+    eraH2.appendChild(eraH2Text);
     eraH2.appendChild(mobileArrow);
 
     //Headers for table
