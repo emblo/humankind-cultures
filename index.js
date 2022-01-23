@@ -10,7 +10,6 @@ window.onload = function() {
 //Hamburger menu
 const hamburger = document.getElementById("hamburger");
 const navUL = document.getElementById("nav-ul");
-const arrowToggle = document.querySelector(".fas fa-arrow-right");
 
 hamburger.addEventListener("click", () => {
     navUL.classList.toggle("show");
